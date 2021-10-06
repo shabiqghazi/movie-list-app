@@ -15,7 +15,7 @@ const PlaylistComp = (props) => {
             <p className="card-text">
               {genres.map(genre => <small key={genre.id} className="badge bg-success me-1">{genre.name}</small>)}
             </p>
-            <a href={props.homepage} className="btn btn-danger">Tonton</a>
+            <a href={props.homepage} className="btn btn-danger" target="blank">Tonton</a>
           </div>
         </div>
       </div>
